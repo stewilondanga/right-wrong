@@ -49,12 +49,11 @@ input[type="checkbox"] {
   display: none;
 }
 
-/*
-input:checked + label svg {
-	display: none;
+input:checked+label svg {
+  display: none;
 }
 
-input:checked + label .x {
+/*input:checked + label .x {
 	display: inherit;
 }
 
