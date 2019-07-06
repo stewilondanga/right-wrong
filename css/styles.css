@@ -45,11 +45,11 @@ svg {
   color: #672E3B;
 }
 
-/*input[type="checkbox"] {
-	display:none;
+input[type="checkbox"] {
+  display: none;
 }
 
-
+/*
 input:checked + label svg {
 	display: none;
 }
