@@ -1,3 +1,12 @@
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #EADEDB;
+  font-family: Helvetica-Light;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,14 +30,6 @@
   height: 1.5em;
 }
 
-body{
-  display:flex;
-  align-content:center;
-  justify-content:center;
-  margin-top:100px;
-  background-color: #EADEDB;
-  font-family: Helvetica-Light;
-}
 
 svg{
   width:200px;
