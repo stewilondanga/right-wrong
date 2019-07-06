@@ -57,11 +57,11 @@ input:checked+label .x {
   display: inherit;
 }
 
-/*.x{
-  display:none;
+.x {
+  display: none;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
