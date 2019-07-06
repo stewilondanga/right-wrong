@@ -53,11 +53,11 @@ input:checked+label svg {
   display: none;
 }
 
-/*input:checked + label .x {
-	display: inherit;
+input:checked+label .x {
+  display: inherit;
 }
 
-.x{
+/*.x{
   display:none;
 }
 
