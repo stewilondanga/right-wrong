@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,56 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body{
+  display:flex;
+  align-content:center;
+  justify-content:center;
+  margin-top:100px;
+  background-color: #EADEDB;
+  font-family: Helvetica-Light;
+}
+
+svg{
+  width:200px;
+  height:200px;
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.box{
+  cursor: pointer;
+  font-size:200px;
+  color: #672E3B;
+}
+
+input[type="checkbox"] {
+	display:none;
+}
+
+
+input:checked + label svg {
+	display: none;
+}
+
+input:checked + label .x {
+	display: inherit;
+}
+
+.x{
+  display:none;
 }
 
 .containers {
