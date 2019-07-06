@@ -39,13 +39,13 @@ svg {
   }
 }
 
-/*.box{
+.box {
   cursor: pointer;
-  font-size:200px;
+  font-size: 200px;
   color: #672E3B;
 }
 
-input[type="checkbox"] {
+/*input[type="checkbox"] {
 	display:none;
 }
 
