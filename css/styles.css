@@ -22,13 +22,12 @@ body {
   height: 1.5em;
 }
 
-/*
-svg{
-  width:200px;
-  height:200px;
+svg {
+  width: 200px;
+  height: 200px;
 }
 
-.path {
+/*.path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: dash 5s linear forwards;
